@@ -10,8 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
     "@apollo/client": "3.11.1",
     "formik": "2.4.6",
     "graphql": "16.9.0",
