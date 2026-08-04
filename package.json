@@ -1,0 +1,31 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "",
+  
+  "homepage": "https://github.com/aestrella0140/Project-Management#readme",
+  "bugs": {
+    "url": "https://github.com/aestrella0140/Project-Management/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aestrella0140/Project-Management.git"
+  },
+  
+  "scripts": {
+    "start": "cd server && npm start",
+    "develop": "concurrently \"cd server && npm run start\" \"cd client && npm run dev\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [],
+  "authors": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "8.2.2"
+  },
+  "dependencies": {
+    "mongodb": "7.5.0"
+  }
+}
